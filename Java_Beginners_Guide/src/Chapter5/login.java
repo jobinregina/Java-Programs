@@ -9,6 +9,7 @@ public class login {
 	public void setuser(String id) {
 		
 		this.id = id;
+		id.concat("A");
 		
 	}
 	
@@ -16,6 +17,7 @@ public class login {
 	public void setpass(String password) {
 		
 		this.password = password;
+		password.concat("123");
 	}
 	
 	//getter method for username
@@ -35,6 +37,11 @@ public class login {
 		
 		if(id.equals(password)||password.length()<8)return "Invalid";
 		return "accepted";
+	}
+	
+	public boolean check() {
+		if(id.contains("A")) return true;
+		return false;
 	}
 
 }
