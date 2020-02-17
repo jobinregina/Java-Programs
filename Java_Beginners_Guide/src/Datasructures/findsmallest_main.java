@@ -1,4 +1,4 @@
-package Chapter1;
+package Datasructures;
 
 public class findsmallest_main {
 

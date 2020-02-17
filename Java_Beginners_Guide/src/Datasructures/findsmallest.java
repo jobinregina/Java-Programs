@@ -1,4 +1,4 @@
-package Chapter1;
+package Datasructures;
 
 public class findsmallest {
 	
@@ -11,7 +11,10 @@ public class findsmallest {
 		
 	}
 	
+	
+	
 public void display() {
+	System.out.print("Array is: ");
 	for(int i:a) {
 		System.out.print(i+" ");
 	}
