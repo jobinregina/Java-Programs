@@ -1,4 +1,7 @@
 package Datasructures;
+/*
+ * Java program to find smallest and largest number in an array
+ */
 
 public class findsmallest {
 	

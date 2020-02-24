@@ -1,4 +1,7 @@
 package Datasructures;
+/*
+ * find missing element in a continuous array 1......n
+ */
 
 public class findmissing {
 

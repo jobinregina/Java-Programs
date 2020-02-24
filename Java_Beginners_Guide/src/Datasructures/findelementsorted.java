@@ -1,5 +1,7 @@
 package Datasructures;
-
+/*
+ * find missing element in an array
+ */
 public class findelementsorted {
 
 	int arr[];

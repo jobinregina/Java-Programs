@@ -1,4 +1,7 @@
 package Datasructures;
+/*
+ * find palindrome of a string
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
